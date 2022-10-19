@@ -1,0 +1,54 @@
+{
+    "TravelPackage":[
+        {
+            "location" : "restaurant",
+            "name": "Panera Bread",
+            "address": "8749 Charlotte NC",
+            "duration": "40",
+
+            "left" : [
+                {
+                "location" : "museum",
+                "name": "Arts and History",
+                "address": "8749 Charlotte NC",
+                "duration": "170",
+
+                "left": [
+                    {
+                        "location": "bar",
+                        "name": "Slingshot",
+                        "address": "8749 Charlotte NC",
+                        "duration": "200"
+                    }
+                ],
+                "right": "null"
+
+
+
+                }
+            ],
+
+            "right" : [
+                {
+                "location" : "park",
+                "name": "nrfc fields",
+                "address": "8749 Charlotte NC",
+                "duration": "30",
+
+                "right":[
+                    {
+                        "location" : "restaurant",
+                        "name": "Halal Cart",
+                        "address": "8749 Charlotte NC",
+                        "duration": "40",
+
+                        "right" :"null",
+                        "left": "null"
+                    }
+                ]
+                }
+            ]
+        }
+    
+    ]
+}
